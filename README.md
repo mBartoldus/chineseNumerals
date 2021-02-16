@@ -4,7 +4,7 @@
 
 I don't speak Chinese. I wrote this in 2019. At the time, I was dabbling in Japanese, which led to frequent encounters with Chinese numerals in the form of Kanji. It's really interesting stuff, but I'm no expert.
 
-There's more than one set of Chinese numerals. This program outputs the ones used in prosaic writing, morphemes, and radicals. There's also a couple related systems that were historically used in financial records. This program would not be effective in forging those kinds of documents. Also, there were a couple options to represent 0, so I went with the simpler-looking one. But I also recognize the character "〇" is a little ambiguous. It could be a full stop, or a star, if you lived during the reign of Empress Wu. Or it could just be a circle.
+There's more than one set of Chinese numerals. This program outputs the ones used in prosaic writing, morphemes, and radicals. There's also a couple related systems that were historically used in financial records. This program would not be effective in forging those kinds of documents. Also, there were a couple options to represent 0, so I went with the simpler-looking one. But I also recognize the character "〇" is a little ambiguous. It could be a full stop, or a star (if you lived during the reign of Empress Wu). Or, it could just be a circle.
 
 This program's output is only valid for positive integers up to (not including) 1,0000,0000
 
