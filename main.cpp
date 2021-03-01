@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-string to_chinese(string input);
+string to_kanji(string input);
 
 int main()
 {
@@ -11,7 +11,7 @@ int main()
     do
     {
         getline(cin, user_input);
-        cout << to_chinese(user_input) << endl << endl;
+        cout << to_kanji(user_input) << endl << endl;
     }
     while (user_input != "");
     return 0;
@@ -19,7 +19,7 @@ int main()
 
 
 
-string to_chinese(string input)
+string to_kanji(string input)
 {
     string integer;
     string output("");
@@ -87,7 +87,7 @@ string to_chinese(string input)
                 
                 // mostly ignore zeros unless they're in the 10,000's place ("万", or myriad)
                 // further details in the following switch statement
-            default: if (length == 1)output.append("〇"); else if (digit != 5) skip = true; break;
+            default: if (length == 1)output.append("零"); else if (digit != 5) skip = true; break;
         }
         
         if(!skip)
