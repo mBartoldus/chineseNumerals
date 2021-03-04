@@ -12,6 +12,8 @@ The function *to_kanji* expects a string formatted in American decimal notation.
 
 The return value is a string of kanji representing that number as it might be said in a phrase. That is to say, 50 returns "五十" (five tens), as opposed to "五〇" (five zero).
 
+The code is thoroughly commented, feel free to take a look around!
+
 ## Examples
 
 	to_kanji("3") == "三"
